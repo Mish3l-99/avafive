@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .container {
+    @apply max-w-[1280px] px-2 mx-auto;
+  }
+
+  /* Custom Typography Styles  */
+  .heading-b-40 {
+    @apply text-[40px] font-[700] leading-[52px];
+  }
+
+  .heading-s-34 {
+    @apply text-[34px] font-[600] leading-[44px];
+  }
+
+  .heading-s-20 {
+    @apply text-[20px] font-[500] leading-[26px];
+  }
+
+  .heading-s-b-20 {
+    @apply text-[20px] font-[600] leading-[26px];
+  }
+
+  .heading-m-14 {
+    @apply text-[14px] font-[500] leading-[18px];
+  }
+
+  .heading-s-14 {
+    @apply text-[14px] font-[600] leading-[16px];
+  }
+
+  .paragraph-m-16 {
+    @apply text-[16px] font-[500] leading-[20px];
+  }
+
+  .paragraph-r-16 {
+    @apply text-[16px] font-[400] leading-[20px];
+  }
+
+  .paragraph-r-14 {
+    @apply text-[14px] font-[400] leading-[20px];
+  }
+
+  .paragraph-m-12 {
+    @apply text-[12px] font-[500] leading-[16px];
+  }
+
+  .paragraph-s-12 {
+    @apply text-[12px] font-[600] leading-[16px];
+  }
+
+  .caption-m-12px {
+    @apply text-[12px] font-[600] leading-[18px];
+  }
+}
