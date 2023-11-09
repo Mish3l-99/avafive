@@ -38,7 +38,7 @@ const ProductPage = async ({ params: { pid } }: Props) => {
 
   const prevPrice = ((price * 100) / (100 - discountPercentage)).toFixed(2);
 
-  console.log(product);
+  // console.log(product);
 
   return (
     <>
@@ -68,7 +68,7 @@ const ProductPage = async ({ params: { pid } }: Props) => {
             </div>
             <hr className="w-full h-[1px] bg-gray-300" />
 
-            <div className="flex justify-between items-start space-x-4">
+            <div className="mb-4 flex flex-col space-y-4 md:space-y-0 md:flex-row md:justify-between md:items-start md:space-x-4">
               <div className="shrink-0">
                 <h6 className="text-typeHigh heading-s-b-20">
                   Delivery Details

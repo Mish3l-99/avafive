@@ -14,7 +14,7 @@ const fetchProducts = async (): Promise<Product[]> => {
 const ProductsList = async () => {
   const products = await fetchProducts();
 
-  console.log(products);
+  // console.log(products);
 
   return (
     <div className="py-4">

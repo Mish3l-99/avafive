@@ -13,10 +13,10 @@ const ProductActions = ({ product }: Props) => {
   const { addToCart } = useCart();
 
   return (
-    <div className="flex items-center space-x-4">
+    <div className="flex items-center space-x-2 md:space-x-4">
       <button
         onClick={() => addToCart(product)}
-        className="px-4 md:w-7/12 p-2 flex items-center justify-center space-x-4 rounded-lg border-[2px] border-primary bg-primary paragraph-m-16 text-bright"
+        className="px-4 md:w-7/12 p-2 flex items-center justify-center space-x-2 md:space-x-4 rounded-lg border-[2px] border-primary bg-primary hover:shadow hover:scale-95 duration-200 paragraph-m-16 text-bright"
       >
         <Image
           alt="bag icon"
@@ -26,7 +26,7 @@ const ProductActions = ({ product }: Props) => {
         />
         <span>Add to bag</span>
       </button>
-      <button className="px-4 md:w-5/12 p-2 flex items-center justify-center space-x-4 rounded-lg border-[2px] border-primary paragraph-m-16 text-primary">
+      <button className="px-4 md:w-5/12 p-2 flex items-center justify-center space-x-2 md:space-x-4 rounded-lg border-[2px] border-primary paragraph-m-16 text-primary">
         <Image
           alt="heart icon"
           src="/icons/primary-heart.svg"

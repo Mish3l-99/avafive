@@ -11,7 +11,7 @@ const Hero = () => {
             <p className="mt-4 heading-s-20 max-w-[430px]">
               Trendy handbags collection for your party animal
             </p>
-            <button className="mt-8 bg-primary flex space-x-2 px-6 py-2 w-fit rounded text-bright">
+            <button className="mt-8 bg-primary hover:shadow hover:scale-95 duration-200 flex space-x-2 px-6 py-2 w-fit rounded text-bright">
               <Image
                 alt="arrow icon"
                 src="/icons/white-arrow.svg"
