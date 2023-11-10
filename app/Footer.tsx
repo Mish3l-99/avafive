@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import OpacityAnimate from "@/components/animate/OpacityAnimate";
 
 const Footer = () => {
   return (
@@ -11,51 +12,62 @@ const Footer = () => {
               <h3 className="text-bright hover:text-highlight paragraph-m-16 mb-3">
                 Shop by Category
               </h3>
-              <ul className="text-lightText flex flex-col space-y-1">
-                <li className="hover:underline cursor-pointer">Skincare</li>
-                <li className="hover:underline cursor-pointer">Prsonal Care</li>
-                <li className="hover:underline cursor-pointer">Handbags</li>
-                <li className="hover:underline cursor-pointer">Apparels</li>
-                <li className="hover:underline cursor-pointer">Watches</li>
-                <li className="hover:underline cursor-pointer">Eye Wear</li>
-                <li className="hover:underline cursor-pointer">Jewellery</li>
-              </ul>
+              <OpacityAnimate>
+                <ul className="text-lightText flex flex-col space-y-1">
+                  <li className="hover:underline cursor-pointer">Skincare</li>
+                  <li className="hover:underline cursor-pointer">
+                    Prsonal Care
+                  </li>
+                  <li className="hover:underline cursor-pointer">Handbags</li>
+                  <li className="hover:underline cursor-pointer">Apparels</li>
+                  <li className="hover:underline cursor-pointer">Watches</li>
+                  <li className="hover:underline cursor-pointer">Eye Wear</li>
+                  <li className="hover:underline cursor-pointer">Jewellery</li>
+                </ul>
+              </OpacityAnimate>
             </div>
             <div className="col-span-3 lg:col-span-1 lg:order-3">
               <h3 className="text-bright hover:text-highlight paragraph-m-16 mb-3">
                 Policy
               </h3>
-              <ul className=" text-lightText flex flex-wrap space-x-1 lg:flex-col lg:space-y-1 lg:space-x-0">
-                <li className="hover:underline cursor-pointer">Return</li>
-                <span className="lg:hidden"> | </span>
-                <li className="hover:underline cursor-pointer">Terms of use</li>
-                <span className="lg:hidden"> | </span>
-                <li className="hover:underline cursor-pointer">Sitemap</li>
-                <span className="lg:hidden"> | </span>
-                <li className="hover:underline cursor-pointer">Security</li>
-                <span className="lg:hidden"> | </span>
-                <li className="hover:underline cursor-pointer">Privacy</li>
-                <span className="lg:hidden"> | </span>
-                <li className="hover:underline cursor-pointer">
-                  ERP Compliance
-                </li>
-              </ul>
+              <OpacityAnimate>
+                <ul className=" text-lightText flex flex-wrap space-x-1 lg:flex-col lg:space-y-1 lg:space-x-0">
+                  <li className="hover:underline cursor-pointer">Return</li>
+                  <span className="lg:hidden"> | </span>
+                  <li className="hover:underline cursor-pointer">
+                    Terms of use
+                  </li>
+                  <span className="lg:hidden"> | </span>
+                  <li className="hover:underline cursor-pointer">Sitemap</li>
+                  <span className="lg:hidden"> | </span>
+                  <li className="hover:underline cursor-pointer">Security</li>
+                  <span className="lg:hidden"> | </span>
+                  <li className="hover:underline cursor-pointer">Privacy</li>
+                  <span className="lg:hidden"> | </span>
+                  <li className="hover:underline cursor-pointer">
+                    ERP Compliance
+                  </li>
+                </ul>
+              </OpacityAnimate>
             </div>
             <div className="col-span-3 lg:col-span-1 lg:order-2">
               <h3 className="text-bright hover:text-highlight paragraph-m-16 mb-3">
                 About
               </h3>
-              <ul className=" text-lightText flex flex-wrap space-x-1 lg:flex-col lg:space-y-1 lg:space-x-0">
-                <li className="hover:underline cursor-pointer">Contact Us</li>
-                <span className="lg:hidden"> | </span>
-                <li className="hover:underline cursor-pointer">About Us</li>
-                <span className="lg:hidden"> | </span>
-                <li className="hover:underline cursor-pointer">Careers</li>
-                <span className="lg:hidden"> | </span>
-                <li className="hover:underline cursor-pointer">Press</li>
-              </ul>
+              <OpacityAnimate>
+                <ul className=" text-lightText flex flex-wrap space-x-1 lg:flex-col lg:space-y-1 lg:space-x-0">
+                  <li className="hover:underline cursor-pointer">Contact Us</li>
+                  <span className="lg:hidden"> | </span>
+                  <li className="hover:underline cursor-pointer">About Us</li>
+                  <span className="lg:hidden"> | </span>
+                  <li className="hover:underline cursor-pointer">Careers</li>
+                  <span className="lg:hidden"> | </span>
+                  <li className="hover:underline cursor-pointer">Press</li>
+                </ul>
+              </OpacityAnimate>
             </div>
           </div>
+
           <div className="col-span-12 lg:col-span-6 flex-col lg:ml-auto">
             <div className="socials flex items-center lg:justify-end space-x-2 mb-4 md:mb-8">
               <a href="https://social-link.com" target="_blank">

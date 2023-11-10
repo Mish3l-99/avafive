@@ -3,7 +3,7 @@ import React from "react";
 
 const SearchBox = () => {
   return (
-    <div className="flex w-full md:w-[362px] items-center space-x-2 py-3 px-2 bg-grey rounded">
+    <div className="flex w-full md:w-[362px] items-center space-x-2 py-3 px-2 bg-grey rounded duration-300 ease-in focus-within:bg-primary/20">
       <Image alt="search icon" src="/icons/search.svg" height={24} width={24} />
       <input
         className="w-full outline-none bg-transparent placeholder:text-typeLow"

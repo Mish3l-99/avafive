@@ -52,12 +52,13 @@ const ProductsList = async () => {
                 >
                   {prod.title}
                 </Link>
-                <button>
+                <button className="">
                   <Image
                     alt="fav icon"
                     src="/icons/heart.svg"
                     height={24}
                     width={24}
+                    className="hover:scale-90 duration-500"
                   />
                 </button>
               </div>
